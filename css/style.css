@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+    font-size: 16px;
+}
+h1{
+    color : #0355cc;
+    font-size: 2.5rem;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bold;
+    margin:20px 0px;
+    text-transform: capitalize;
+    line-height: 40px;
+}
+p{
+    font-size: 1em;
+    line-height: 2em; 
+    margin-bottom: 40px; 
+    color : black
+}
+a{
+    text-decoration: none;
+    font-size: 1em;
+    color: rgba(0, 0, 0, 0.548);
+}
+a:hover{
+    color : rgb(10, 10, 227);
+}
+
+.navbar{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background-color:transparent;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 1px 2px #ff8a1d;
+}
+.navbar .logo span{
+    display: inline-block;
+    margin-left: 20px;
+    color : #0355cc;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.navbar ul li{
+    display: inline-block;
+    padding: 20px 20px;
+}
+.home{
+    padding-top: 60px;
+    display: flex;
+    width: 100%;
+    height:120vh;
+    justify-content: center;
+    background-color: #d1e3ff
+}
+.home .left{
+    width: 60%;
+    padding: 50px;
+}
+.home .left .container{
+    height: 60%;
+    width: 80%;
+    margin: 20% 10% ;
+}
+.home .left button{
+    border: none;
+    border-radius: 5px;
+    background-color: #ff8a1d;
+    height: 40px;
+    width: 200px;
+    font-size: 16px;
+    color: white;
+    transition:.5s;
+    cursor: pointer;
+}
+.home .left button:hover{
+    border:1px solid #ff8a1d ;
+    background-color: transparent;
+    color : black
+}
+ .home  .right{
+    width: 40%;
+    background-image: url('../images/slider-img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .activity{
+    background-color:white;
+    height: 100vh;
+    
+}
+ .activity .container{
+    transform: translateY(-50%);
+    width: 80%;
+    height: 20%;
+    margin : 0 auto;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    
+ }
+ .activity .container .activity-child{
+    background-color: #ff8a1d;
+    height: 40vh 
+ }
+
+ .activity .about{
+    width: 80%;
+    height: 80%;
+    margin : 0 auto;
+    background-color: rgb(228, 216, 216);
+
+ }
+ .activity .about .container{
+    display: flex;
+    background-color: #0355cc;
+    transform: translatey(10%);
+    width: 100%;
+    height: 100%;
+}
+.activity .about .container .about-left{
+    width: 50%;
+
+}
+.activity .about .container .about-right{
+    width: 50%;
+    background-image: url('../images/about-img.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+
+
+    
+
+
+
+
